@@ -10,82 +10,96 @@
     <!-- MAIN (Center website) -->
     <div class="main">
 
-    <h1>MYLOGO.COM</h1>
+    <h1>Hichatu's Maps</h1>
     <hr>
     
-    <h2>PORTFOLIO</h2>
+    <h3>A collection of some of the maps I have made, showing the progress of my level design skills.</h3>
     
     <div id="myBtnContainer">
     <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-      <button class="btn" onclick="filterSelection('nature')"> Nature</button>
-      <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-      <button class="btn" onclick="filterSelection('people')"> People</button>
+      <button class="btn" onclick="filterSelection('CS2')"> CS2</button>
+      <button class="btn" onclick="filterSelection('CSGO')"> CSGO</button>
+      <button class="btn" onclick="filterSelection('COLLAB')"> COLLABS</button>
     </div>
     
     <!-- Portfolio Gallery Grid -->
     <div class="row">
-      <div class="column nature">
+      <div class="column CS2">
         <div class="content">
-          <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
-          <h4>Mountains</h4>
-          <p>Lorem ipsum dolor..</p>
-        </div>
-      </div>
-      <div class="column nature">
-        <div class="content">
-        <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
-          <h4>Lights</h4>
-          <p>Lorem ipsum dolor..</p>
-        </div>
-      </div>
-      <div class="column nature">
-        <div class="content">
-        <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
-          <h4>Forest</h4>
+          <img src="images/spinnu.gif" alt="CS2PLACEHOLDER" style="width:100%">
+          <h4>CS2 PLACEHOLDER</h4>
           <p>Lorem ipsum dolor..</p>
         </div>
       </div>
       
-      <div class="column cars">
+      <div class="column CSGO">
         <div class="content">
-          <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
-          <h4>Retro</h4>
+          <img src="images/hellforge1.png" alt="HELLFORGE" style="width:100%">
+          <h4>ze_HELLFORGE</h4>
           <p>Lorem ipsum dolor..</p>
         </div>
       </div>
-      <div class="column cars">
+      <div class="column CSGO">
         <div class="content">
-        <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
-          <h4>Fast</h4>
+        <img src="images/sanctuary1.png" alt="SANCTUARY" style="width:100%">
+          <h4>ze_SANCTUARY</h4>
           <p>Lorem ipsum dolor..</p>
         </div>
       </div>
-      <div class="column cars">
+      <div class="column CSGO">
         <div class="content">
-        <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
-          <h4>Classic</h4>
+        <img src="images/dystopia1.png" alt="DYSTOPIA" style="width:100%">
+          <h4>ze_DYSTOPIA</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column CSGO">
+        <div class="content">
+        <img src="images/desertbus1.png" alt="DesertBus" style="width:100%">
+          <h4>ze_desert_bus</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column CSGO">
+        <div class="content">
+        <img src="images/preydystopia1.png" alt="PreyDystopia" style="width:100%">
+          <h4>prey_dystopia</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column CSGO">
+        <div class="content">
+        <img src="images/jamaisvu1.png" alt="JamaisVu" style="width:100%">
+          <h4>ze_jamais_vu</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column CSGO">
+        <div class="content">
+        <img src="images/solgryn1.png" alt="Solgryn" style="width:100%">
+          <h4>ze_solgryn</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column CSGO">
+        <div class="content">
+        <img src="images/lolxd1.png" alt="LOLXD" style="width:100%">
+          <h4>ze_lolxd</h4>
           <p>Lorem ipsum dolor..</p>
         </div>
       </div>
     
-      <div class="column people">
+      <div class="column COLLAB">
         <div class="content">
-          <img src="/w3images/people1.jpg" alt="Car" style="width:100%">
-          <h4>Girl</h4>
+          <img src="images/mapeamuseum1.png" alt="MapeaMuseum" style="width:100%">
+          <h4>ze_mapeadores_museum_v1</h4>
           <p>Lorem ipsum dolor..</p>
         </div>
       </div>
-      <div class="column people">
+      <div class="column COLLAB">
         <div class="content">
-        <img src="/w3images/people2.jpg" alt="Car" style="width:100%">
-          <h4>Man</h4>
-          <p>Lorem ipsum dolor..</p>
-        </div>
-      </div>
-      <div class="column people">
-        <div class="content">
-        <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
-          <h4>Woman</h4>
+        <img src="images/diddle1.png" alt="Diddle" style="width:100%">
+          <h4>ze_diddle</h4>
           <p>Lorem ipsum dolor..</p>
         </div>
       </div>
@@ -96,6 +110,7 @@
     </div>
 
     <script>
+// --- COLUMN FILTERING SCRIPT ---
 filterSelection("all") // Execute the function and show all columns
 function filterSelection(c) {
   var x, i;
@@ -143,6 +158,7 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+// --- ---
     </script>
 </body>
 </html>
