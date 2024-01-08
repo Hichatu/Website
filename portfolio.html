@@ -5,16 +5,17 @@
     <link rel="stylesheet" href="style.css">
     <!--<script src="script.js"></script>-->
     <script>
-      const HELLFORGE_INDEX = 0;
-      const SANCTUARY_INDEX = 1;
-      const DYSTOPIA_INDEX = 2;
-      const DESERTBUS_INDEX = 3;
-      const PREYDYSTOPIA_INDEX = 4;
-      const JAMAISVU_INDEX = 5;
-      const SOLGRYN_INDEX = 6;
-      const LOLXD_INDEX = 7;
-      const MAPEAMUSEUM_INDEX = 8;
-      const DIDDLE_INDEX = 9;
+      const PROMETHEON_INDEX = 0;
+      const HELLFORGE_INDEX = 1;
+      const SANCTUARY_INDEX = 2;
+      const DYSTOPIA_INDEX = 3;
+      const DESERTBUS_INDEX = 4;
+      const PREYDYSTOPIA_INDEX = 5;
+      const JAMAISVU_INDEX = 6;
+      const SOLGRYN_INDEX = 7;
+      const LOLXD_INDEX = 8;
+      const MAPEAMUSEUM_INDEX = 9;
+      const DIDDLE_INDEX = 10;
     </script>
 <head>
 </head>
@@ -23,10 +24,11 @@
     <!-- MAIN (Center website) -->
     <div class="main">
 
-    <h1>Hichatu's Maps</h1>
+    <h1>My Maps</h1>
     <hr>
     
-    <h3>A collection of some of the maps I have made, showing the progress of my level design skills.</h3>
+    <h3>A collection of some of the maps I have made, showing the progress of my level design skills.
+    <br>Also includes a couple of grey-boxes and unfinished projects I'd also like to show off.</h3>
     
     <div id="myBtnContainer">
     <button class="btn active" onclick="filterSelection('all')"> Show all</button>
@@ -41,17 +43,25 @@
       <!-- CS2 MAPS -->
       <!-- PLACEHOLDER SPINNU -->
       <div class="column CS2">
-        <div class="content">
-          <img src="images/spinnu.gif" style="width:100%">
-          <h4>CS2 PLACEHOLDER</h4>
-          <p>Placeholder for CS2 projects
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          I'll update this part when I have a released CS2 map</p>
+        <div class="content slideshow">
+          <div class="images">
+            <img class="mySlides fade" src="images/prometheon1.png" style="width:100%">
+            <img class="mySlides fade" src="images/prometheon2.png" style="width:100%">
+            <img class="mySlides fade" src="images/prometheon3.png" style="width:100%">
+            <img class="mySlides fade" src="images/prometheon4.png" style="width:100%">
+            <img class="mySlides fade" src="images/prometheon5.png" style="width:100%">
+            <a class="prev" onclick="plusDivs(-1, PROMETHEON_INDEX)">&#10094;</a>
+            <a class="next" onclick="plusDivs(1, PROMETHEON_INDEX)">&#10095;</a>
+          </div>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentDiv(1, PROMETHEON_INDEX)"></span>
+            <span class="dot" onclick="currentDiv(2, PROMETHEON_INDEX)"></span>
+            <span class="dot" onclick="currentDiv(3, PROMETHEON_INDEX)"></span>
+            <span class="dot" onclick="currentDiv(4, PROMETHEON_INDEX)"></span>
+            <span class="dot" onclick="currentDiv(5, PROMETHEON_INDEX)"></span>
+          </div>
+          <h4>ze_PROMETHEON (unfinished)</h4>
+          <p>This map was intended to be a sequel to my previous castle-themed map SANCTUARY. A lot of time was spent learning Source2 mapping and mesh manipulation techniques. So where it may be unfinished, it vastly helped me improve my skills.</p>
         </div>
       </div>
       
@@ -81,8 +91,8 @@
             <span class="dot" onclick="currentDiv(7, HELLFORGE_INDEX)"></span>
             <span class="dot" onclick="currentDiv(8, HELLFORGE_INDEX)"></span>
           </div>
-          <h4>ze_HELLFORGE</h4>
-          <p>HELLFORGE was an unfinished project I made a lot of progress on. Unfortunately development stopped when Counter-Strike 2 was announced, on the flashy new Source2 engine. So progress was halted.</p>
+          <h4>ze_HELLFORGE (unfinished)</h4>
+          <p>HELLFORGE was an unfinished project I made a lot of progress on. Unfortunately development stopped when Counter-Strike 2 was announced, on the flashy new Source2 engine. So progress was halted / cancelled.</p>
         </div>
       </div>
 
