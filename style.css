@@ -10,7 +10,7 @@
   
   /* Center website */
   .main {
-    max-width: 1500px;
+    max-width: 1600px;
     margin: auto;
   }
   
@@ -29,10 +29,10 @@
     padding: 8px;
   }
   
-  /* Create three equal columns that floats next to each other */
+  /* Create two equal columns that floats next to each other */
   .column {
     float: left;
-    width: 33.33%;
+    width: 50%;
     display: none; /* Hide columns by default */
   }
   
