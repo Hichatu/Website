@@ -5,17 +5,18 @@
     <link rel="stylesheet" href="style.css">
     <!--<script src="script.js"></script>-->
     <script>
-      const PROMETHEON_INDEX = 0;
-      const HELLFORGE_INDEX = 1;
-      const SANCTUARY_INDEX = 2;
-      const DYSTOPIA_INDEX = 3;
-      const DESERTBUS_INDEX = 4;
-      const PREYDYSTOPIA_INDEX = 5;
-      const JAMAISVU_INDEX = 6;
-      const SOLGRYN_INDEX = 7;
-      const LOLXD_INDEX = 8;
-      const MAPEAMUSEUM_INDEX = 9;
-      const DIDDLE_INDEX = 10;
+      const DYSTOPIATWO_INDEX = 0;
+      const PROMETHEON_INDEX = 1;
+      const HELLFORGE_INDEX = 2;
+      const SANCTUARY_INDEX = 3;
+      const DYSTOPIA_INDEX = 4;
+      const DESERTBUS_INDEX = 5;
+      const PREYDYSTOPIA_INDEX = 6;
+      const JAMAISVU_INDEX = 7;
+      const SOLGRYN_INDEX = 8;
+      const LOLXD_INDEX = 9;
+      const MAPEAMUSEUM_INDEX = 10;
+      const DIDDLE_INDEX = 11;
     </script>
 <head>
 </head>
@@ -28,7 +29,7 @@
     <hr>
     
     <h3>A collection of some of the maps I have made, showing the progress of my level design skills.
-    <br>Also includes a couple of grey-boxes and unfinished projects I'd also like to show off.</h3>
+    <br>Also includes a couple of in-progress and unfinished projects I'd also like to show off.</h3>
     
     <div id="myBtnContainer">
     <button class="btn active" onclick="filterSelection('all')"> All Maps</button>
@@ -41,7 +42,33 @@
     <div class="row">
 
       <!-- CS2 MAPS -->
-      <!-- PLACEHOLDER SPINNU -->
+      <!-- DYSTOPIA 2 -->
+      <div class="column CS2">
+        <div class="content slideshow">
+          <div class="images">
+            <img class="mySlides fade" src="images/dystopia2_1.png" style="width:100%">
+            <img class="mySlides fade" src="images/dystopia2_2.png" style="width:100%">
+            <img class="mySlides fade" src="images/dystopia2_3.png" style="width:100%">
+            <img class="mySlides fade" src="images/dystopia2_4.png" style="width:100%">
+            <img class="mySlides fade" src="images/dystopia2_5.png" style="width:100%">
+            <img class="mySlides fade" src="images/dystopia2_6.png" style="width:100%">
+            <a class="prev" onclick="plusDivs(-1, DYSTOPIATWO_INDEX)">&#10094;</a>
+            <a class="next" onclick="plusDivs(1, DYSTOPIATWO_INDEX)">&#10095;</a>
+          </div>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentDiv(1, DYSTOPIATWO_INDEX)"></span>
+            <span class="dot" onclick="currentDiv(2, DYSTOPIATWO_INDEX)"></span>
+            <span class="dot" onclick="currentDiv(3, DYSTOPIATWO_INDEX)"></span>
+            <span class="dot" onclick="currentDiv(4, DYSTOPIATWO_INDEX)"></span>
+            <span class="dot" onclick="currentDiv(5, DYSTOPIATWO_INDEX)"></span>
+            <span class="dot" onclick="currentDiv(6, DYSTOPIATWO_INDEX)"></span>
+          </div>
+          <h4>ze_DYSTOPIA_2 (in progress)</h4>
+          <p>This is my planned second-half to the CSGO map I made of the same name. Currently I am working on this in my free time when I have motivation to work on it. It uses Source2 features that were not possible in CSGO. This map is very much still in the planning phase, with a bit of detail here and there.</p>
+        </div>
+      </div>
+
+      <!-- PROMETHEON -->
       <div class="column CS2">
         <div class="content slideshow">
           <div class="images">
